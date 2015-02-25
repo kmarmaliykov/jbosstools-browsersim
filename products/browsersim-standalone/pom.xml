@@ -2,16 +2,16 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<parent>
-		<groupId>org.jboss.tools.vpe</groupId>
-		<artifactId>browsersim.products</artifactId>
+		<groupId>org.jboss.tools</groupId>
+		<artifactId>browsersim</artifactId>
 		<version>3.7.0-SNAPSHOT</version>
 	</parent>	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jboss.tools.vpe.browsersim</groupId>
-	<artifactId>org.jboss.tools.vpe.browsersim-standalone</artifactId>
+	<groupId>org.jboss.tools.browsersim</groupId>
+	<artifactId>org.jboss.tools.browsersim-standalone</artifactId>
 	<version>3.7.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
-	<name>org.jboss.tools.vpe.browsersim-standalone</name>
+	<name>org.jboss.tools.browsersim-standalone</name>
 	<build>
 		<plugins>
 			<plugin>
