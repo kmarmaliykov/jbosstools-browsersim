@@ -23,7 +23,7 @@ import org.eclipse.swt.widgets.Composite;
 /**
  * @author Yahor Radtsevich (yradtsevich)
  */
-public abstract class BrowserSimBrowser extends Browser implements IBrowser {
+public abstract class BrowserSimBrowser extends BrowserWithFunctions implements IBrowser {
 	private Map<ExtendedCloseWindowListener, CloseWindowListener> closeWindowListenerMap =
 			new HashMap<ExtendedCloseWindowListener, CloseWindowListener>();
 	private Map<ExtendedOpenWindowListener, OpenWindowListener> openWindowListenerMap =
